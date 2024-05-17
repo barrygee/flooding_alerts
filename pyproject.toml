@@ -12,6 +12,8 @@ crewai = {extras = ["tools"], version = "^0.30.11"}
 crewai-tools = "^0.2.6"
 langchain-community = "^0.0.38"
 
+[tool.poetry.scripts]
+flooding_alerts = "flooding_alerts.main:run"
 
 [build-system]
 requires = ["poetry-core"]
