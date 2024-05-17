@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flooding-alerts"
+version = "0.1.0"
+description = "flooding_alerts using crewAI"
+authors = ["barrygee <barry.mark.gee@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = {extras = ["tools"], version = "^0.30.11"}
+crewai-tools = "^0.2.6"
+langchain-community = "^0.0.38"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
